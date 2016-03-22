@@ -1,0 +1,23 @@
+* {
+    border: 1px dotted blue;
+}
+
+div {
+    position: relative;
+    width: 640px;
+    left:50%;
+    margin-left: -320px;
+}
+
+#slider {
+    height: 428px;
+    background-color:blue;
+    vertical-align:middle;
+}
+
+div a {
+    text-decoration:none;
+    display:inline-block;
+    width: calc(50% - 5px);
+    text-align:center;
+}
