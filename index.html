@@ -9,19 +9,21 @@
     <body>
 
         <div id="slider">
-            <img src="images/grass-and-trees.jpg">
-            <img src="images/italian-mountains.jpg">
-            <img src="images/night-stars.jpg">
-            <img src="images/red-flowers.jpg">
+            <img id="1" src="images/grass-and-trees.jpg">
+            <img id="2" src="images/italian-mountains.jpg">
+            <img id="3" src="images/night-stars.jpg">
+            <img id="4" src="images/red-flowers.jpg">
         </div>
         <div>
-            <span>Slider started</span>
-            <span>Slider stopped</span>
+            <div id="status1">Slider started</div>
+            <div id="status2">Slider stopped</div>
         </div>
         <div id="buttons">
-            <a href="">Previous</a>
-            <a href="">Next</a>
+            <a href="#" class="left" onclick="prev(); return false;">Previous</a>
+            <a href="#" class="right" onclick="next(); return false;">Next</a>
         </div>
 
+        <script src="js/jQuery.js"></script>
+        <script src="js/slider.js"></script>
     </body>
 </html>
